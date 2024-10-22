@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="JavaTest" time="0.18" tests="40" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/aaron/flatbuffers/java/target/test-classes:/home/aaron/flatbuffers/java/target/classes:/home/aaron/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/aaron/.m2/repository/com/google/truth/truth/1.1.3/truth-1.1.3.jar:/home/aaron/.m2/repository/com/google/guava/guava/30.1.1-android/guava-30.1.1-android.jar:/home/aaron/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/aaron/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/aaron/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/aaron/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/aaron/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/aaron/.m2/repository/org/checkerframework/checker-qual/3.13.0/checker-qual-3.13.0.jar:/home/aaron/.m2/repository/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.jar:/home/aaron/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/home/aaron/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:"/>
+    <property name="java.vm.vendor" value="GraalVM Community"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.graalvm.org/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/home/aaron/.sdkman/candidates/java/21-graalce/lib"/>
+    <property name="sun.java.command" value="/home/aaron/flatbuffers/java/target/surefire/surefirebooter13597226381970331149.jar /home/aaron/flatbuffers/java/target/surefire 2024-10-22T17-00-47_901-jvmRun1 surefire1991210907363133778tmp surefire_09405658104952963744tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/aaron/flatbuffers/java/target/test-classes:/home/aaron/flatbuffers/java/target/classes:/home/aaron/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/aaron/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/aaron/.m2/repository/com/google/truth/truth/1.1.3/truth-1.1.3.jar:/home/aaron/.m2/repository/com/google/guava/guava/30.1.1-android/guava-30.1.1-android.jar:/home/aaron/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/aaron/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/aaron/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/aaron/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/aaron/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/aaron/.m2/repository/org/checkerframework/checker-qual/3.13.0/checker-qual-3.13.0.jar:/home/aaron/.m2/repository/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.jar:/home/aaron/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/home/aaron/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/aaron"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="/home/aaron/.sdkman/candidates/java/21-graalce"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/aaron/flatbuffers/java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="jdk.internal.vm.ci.enabled" value="true"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/aaron/flatbuffers/java/target/surefire/surefirebooter13597226381970331149.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-jvmci-23.1-b15"/>
+    <property name="user.name" value="aaron"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.1.0-26-amd64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="GraalVM CE 21+35.1"/>
+    <property name="localRepository" value="/home/aaron/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/oracle/graal/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="/home/aaron/flatbuffers/java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="GraalVM Community"/>
+    <property name="java.vm.version" value="21+35-jvmci-23.1-b15"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testSingleFixedTypeVector" classname="JavaTest" time="0.022"/>
+  <testcase name="testSingleElementInt" classname="JavaTest" time="0.009"/>
+  <testcase name="testSingleElementMap" classname="JavaTest" time="0.002"/>
+  <testcase name="TestFixedLengthArrays" classname="JavaTest" time="0.002"/>
+  <testcase name="testFlexBufferVectorStrings" classname="JavaTest" time="0.06"/>
+  <testcase name="TestSharedStringPool" classname="JavaTest" time="0.001"/>
+  <testcase name="TestByteBufferFactory" classname="JavaTest" time="0.011"/>
+  <testcase name="testHashMapToMap" classname="JavaTest" time="0.002"/>
+  <testcase name="TestDictionaryLookup" classname="JavaTest" time="0"/>
+  <testcase name="testSingleElementSmallString" classname="JavaTest" time="0.001"/>
+  <testcase name="testFlexBuffersTest" classname="JavaTest" time="0.001"/>
+  <testcase name="testSingleElementBlob" classname="JavaTest" time="0"/>
+  <testcase name="testSingleElementByte" classname="JavaTest" time="0"/>
+  <testcase name="testSingleElementLong" classname="JavaTest" time="0.001"/>
+  <testcase name="testSingleElementUInt" classname="JavaTest" time="0"/>
+  <testcase name="testSingleElementDouble" classname="JavaTest" time="0"/>
+  <testcase name="TestCreateUninitializedVector" classname="JavaTest" time="0.001"/>
+  <testcase name="testFlexBuferEmpty" classname="JavaTest" time="0"/>
+  <testcase name="mainTest" classname="JavaTest" time="0.005"/>
+  <testcase name="testFlexBuffersMapLookup" classname="JavaTest" time="0.001"/>
+  <testcase name="testSingleElementUShort" classname="JavaTest" time="0"/>
+  <testcase name="testFlatBufferBuilder" classname="JavaTest" time="0.001"/>
+  <testcase name="testSingleElementVector" classname="JavaTest" time="0"/>
+  <testcase name="TestSizedInputStream" classname="JavaTest" time="0.001"/>
+  <testcase name="TestNestedFlatBuffer" classname="JavaTest" time="0"/>
+  <testcase name="testSingleElementBoolean" classname="JavaTest" time="0.001"/>
+  <testcase name="testFlexBuffersUtf8Map" classname="JavaTest" time="0"/>
+  <testcase name="TestScalarOptional" classname="JavaTest" time="0.001"/>
+  <testcase name="TestVectorOfBytes" classname="JavaTest" time="0.001"/>
+  <testcase name="TestEnums" classname="JavaTest" time="0"/>
+  <testcase name="testDeprecatedTypedVectorString" classname="JavaTest" time="0"/>
+  <testcase name="TestNamespaceNesting" classname="JavaTest" time="0.001"/>
+  <testcase name="testBuilderGrowth" classname="JavaTest" time="0"/>
+  <testcase name="testSingleElementFloat" classname="JavaTest" time="0.001"/>
+  <testcase name="testSingleElementShort" classname="JavaTest" time="0"/>
+  <testcase name="testSingleElementUByte" classname="JavaTest" time="0"/>
+  <testcase name="TestCreateByteVector" classname="JavaTest" time="0.001"/>
+  <testcase name="testSingleElementBigString" classname="JavaTest" time="0"/>
+  <testcase name="TestVectorOfUnions" classname="JavaTest" time="0.001"/>
+  <testcase name="testSingleElementLongBlob" classname="JavaTest" time="0.028"/>
+</testsuite>
