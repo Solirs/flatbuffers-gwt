@@ -19,9 +19,9 @@ dependencies {
     testImplementation libs.com.google.truth.truth
 }
 
-group = 'com.google.flatbuffers'
+group = 'org.solirs.flatbuffers-gwt'
 version = '24.3.25'
-description = 'FlatBuffers Java API'
+description = 'FlatBuffers Java API with GWT support'
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 java {

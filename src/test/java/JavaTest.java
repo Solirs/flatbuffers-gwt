@@ -1,5 +1,4 @@
 
-import static com.google.flatbuffers.Constants.*;
 import static com.google.common.truth.Truth.assertThat;
 
 import DictionaryLookup.*;
@@ -9,19 +8,19 @@ import optional_scalars.ScalarStuff;
 import optional_scalars.OptionalByte;
 import NamespaceA.*;
 import NamespaceA.NamespaceB.*;
-import com.google.flatbuffers.ByteBufferUtil;
-import com.google.flatbuffers.ByteVector;
-import com.google.flatbuffers.FlatBufferBuilder;
-import com.google.flatbuffers.FlexBuffers;
-import com.google.flatbuffers.FlexBuffersBuilder;
-import com.google.flatbuffers.StringVector;
-import com.google.flatbuffers.UnionVector;
+import org.solirs.flatbuffersgwt.ByteBufferUtil;
+import org.solirs.flatbuffersgwt.ByteVector;
+import org.solirs.flatbuffersgwt.FlatBufferBuilder;
+import org.solirs.flatbuffersgwt.FlexBuffers;
+import org.solirs.flatbuffersgwt.FlexBuffersBuilder;
+import org.solirs.flatbuffersgwt.StringVector;
+import org.solirs.flatbuffersgwt.UnionVector;
 
-import com.google.flatbuffers.FlexBuffers.FlexBufferException;
-import com.google.flatbuffers.FlexBuffers.Reference;
-import com.google.flatbuffers.FlexBuffers.Vector;
-import com.google.flatbuffers.ArrayReadWriteBuf;
-import com.google.flatbuffers.FlexBuffers.KeyVector;
+import org.solirs.flatbuffersgwt.FlexBuffers.FlexBufferException;
+import org.solirs.flatbuffersgwt.FlexBuffers.Reference;
+import org.solirs.flatbuffersgwt.FlexBuffers.Vector;
+import org.solirs.flatbuffersgwt.ArrayReadWriteBuf;
+import org.solirs.flatbuffersgwt.FlexBuffers.KeyVector;
 
 import java.io.*;
 import java.nio.ByteBuffer;
@@ -863,7 +862,7 @@ public class JavaTest {
             ByteBuffer b = builder.finish();
             FlexBuffers.Reference r = FlexBuffers.getRoot(b);
             byte[] result = r.asBlob().getBytes();
-            
+
             for (int index = 0; index < input.length; index++) {
               assertThat((byte)(index % 64)).isEqualTo(result[index]);
             }
