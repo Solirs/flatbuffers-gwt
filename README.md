@@ -1,5 +1,5 @@
 # flatbuffers-gwt  
-A fork of flatbuffers-java with minor patches to allow compilation using GWT under LibGDX.  
+A fork of [flatbuffers-java](https://github.com/google/flatbuffers/tree/master/java) with minor patches to allow compilation using GWT under LibGDX.  
 Both the runtime and source code generated using flatc work.  
 
 # Limitations
