@@ -1,5 +1,5 @@
-./bin/*
+bin/
 
-./.gradle/*
-./build/*
-./target/*
+.gradle/
+build/
+target/
