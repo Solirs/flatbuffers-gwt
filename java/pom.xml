@@ -18,18 +18,18 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <url>https://codeberg.org/solirs/flatbuffers-gwt</url>
+  <url>https://github.com/Solirs/flatbuffers-gwt</url>
   <licenses>
     <license>
       <name>Apache License V2.0</name>
-      <url>https://codeberg.org/solirs/flatbuffers-gwt/raw/branch/master/LICENSE</url>
+      <url>https://raw.githubusercontent.com/Solirs/flatbuffers-gwt/refs/heads/main/LICENSE</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
   <scm>
-    <url>https://codeberg.org/solirs/flatbuffers-gwt</url>
+    <url>https://github.com/Solirs/flatbuffers-gwt</url>
     <connection>
-      scm:git:https://codeberg.org/solirs/flatbuffers-gwt.git
+      scm:git:https://github.com/Solirs/flatbuffers-gwt.git
     </connection>
     <tag>HEAD</tag>
   </scm>
