@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.solirs</groupId>
-  <artifactId>flatbuffers-gwt</artifactId>
+  <artifactId>gdx-flatbuffers</artifactId>
   <version>24.3.25</version>
   <packaging>bundle</packaging>
-  <name>FlatBuffers Java API with GWT support</name>
+  <name>FlatBuffers for LibGDX</name>
   <description>
     Memory Efficient Serialization Library
   </description>
@@ -18,18 +18,18 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <url>https://github.com/Solirs/flatbuffers-gwt</url>
+  <url>https://github.com/Solirs/gdx-flatbuffers</url>
   <licenses>
     <license>
       <name>Apache License V2.0</name>
-      <url>https://raw.githubusercontent.com/Solirs/flatbuffers-gwt/refs/heads/main/LICENSE</url>
+      <url>https://raw.githubusercontent.com/Solirs/gdx-flatbuffers/refs/heads/main/LICENSE</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
   <scm>
-    <url>https://github.com/Solirs/flatbuffers-gwt</url>
+    <url>https://github.com/Solirs/gdx-flatbuffers</url>
     <connection>
-      scm:git:https://github.com/Solirs/flatbuffers-gwt.git
+      scm:git:https://github.com/Solirs/gdx-flatbuffers.git
     </connection>
     <tag>HEAD</tag>
   </scm>
@@ -100,17 +100,15 @@
         <version>5.1.2</version>
         <extensions>true</extensions>
       </plugin>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.8</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <autoReleaseAfterClose>true</autoReleaseAfterClose>
-        </configuration>
-      </plugin>
+        <plugin>
+          <groupId>org.sonatype.central</groupId>
+          <artifactId>central-publishing-maven-plugin</artifactId>
+          <version>0.6.0</version>
+          <extensions>true</extensions>
+          <configuration>
+            <publishingServerId>central</publishingServerId>
+          </configuration>
+        </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
