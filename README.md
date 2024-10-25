@@ -32,6 +32,7 @@ In GdxDefinition.gwt.xml
 
 # Usage  
 Exactly the same as google's flatbuffers-java. Even the imports are the same so as to not break flatc-generated files.  
+A tutorial on flatbuffers usage in java is available [here](https://flatbuffers.dev/flatbuffers_guide_tutorial.html) (don't forget to choose java as the language).  
 
 # Limitations
 Can't use Utf8Old as its whole point is to rely on a part of the stdlib that's not implemented by GWT/LibGDX.  
